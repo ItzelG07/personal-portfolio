@@ -1,0 +1,465 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }  
+
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 15.35vh;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .logo {
+    width: 15.14vw;
+    height: 12.08vh;
+    margin-left: 3.125vw;
+    border: transparent;
+  }
+  
+  nav {
+    margin-left: 39.03vw;
+  }
+  
+  .nav__links {
+    display: flex;
+    gap: 2vw;
+    width: 60vw;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav__links li a {
+    color: #ffffff;
+    font-size: 1.67vw;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.1s ease-in-out;
+  }
+  
+  .nav__links li a:hover {
+    font-weight: 700;
+    color: #C1C1C1;
+  }
+
+  main {
+    position: relative;
+    width: 100vw;
+    height: 85.52vh;
+    overflow: hidden;
+    margin-top: 15.35vh; /* Push content below fixed header */
+  }
+  
+  .hero-img1 {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    object-fit: cover;
+  }
+  
+  .hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 20.11vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .hero-text {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 8.89vw;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .discover-anchor {
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    /* width: 100%; */ /* Remove this line */
+}
+  
+  .discover-anchor p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 1.67vw;
+    color: #ffffff;
+  }
+  
+  .hero-img2 {
+    width: 7.08vw;
+    height: 5.54vh;
+  }
+
+  .aboutme {
+    padding: 5vh 4.86vw;
+  }
+  
+  .aboutme h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 4.44vw; 
+    margin: 0 0 2.36vh 0;
+    color: #1C1C1C;
+  }
+  
+  .aboutme p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw; 
+    color: #1C1C1C;
+    margin-bottom: 4vh;
+  }
+
+  .learn-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.47vw; 
+    height: 5.76vh; 
+    font-size: 2.5vw;
+    padding: 1vh 1.5vw;
+    background-color: #1C1C1C;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    gap: 1vw;
+    margin: 0 auto; /* Centers the anchor horizontally */
+  }
+  
+  
+  .learn-btn2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18.47vw; 
+    height: 5.76vh; 
+    font-size: 2.5vw;
+    padding: 1vh 1.5vw;
+    background-color: #1C1C1C;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    gap: 1vw;
+  }
+  
+  .btn-img {
+    width: 3.125vw; 
+    height: 6.211vh; 
+  }
+  
+  .quote {
+    width: 95vw;
+    height: 30.25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2vh 4vw;
+    gap: 2vh;
+    background-color: black;
+  }
+  
+  .quote h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 4.44vw;
+    color: white;
+    width: 90vw;
+    margin: 0;
+  }
+  
+  .quote p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: white;
+    margin: 0;
+  }
+
+  .projects {
+    padding: 5vh 4.86vw;
+  }
+  
+  .projects h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 4.44vw;
+    margin-bottom: 2.36vh;
+    color: #1C1C1C;
+  }
+  
+  .projects p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-bottom: 2.36vh;
+    color: #1C1C1C;
+  }
+  
+  .projects h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 4.44vw;
+    margin-bottom: 2vh;
+    color: #1C1C1C;
+    margin-left: 4.vw;
+}
+
+.projects nav {
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 4vh;
+}
+  
+  .projects img {
+    width: 27.5vw;
+    margin-right: 2vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .experiences{
+    padding: 5vh 4.86vw;
+  }
+
+  .experiences h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 4.44vw;
+    margin-bottom: 2.36vh;
+    color: #1C1C1C;
+  }
+
+  .experiences p{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-bottom: 2.36vh;
+    color: #1C1C1C;
+  }
+
+  .experiences h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 4.44vw;
+    margin-bottom: 2vh;
+    color: #1C1C1C;
+    margin-left: 0;
+  }
+
+  .experiences .title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vw;
+    margin: 0;
+  }
+  
+  .experiences .date {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin: 0 0 1.5vh;
+  }
+  
+  .experiences .description {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-bottom: 4vh;
+    line-height: 1.5;
+    color: #1C1C1C;
+  }
+
+  .experiences {
+    padding: 0;
+    margin-left: 0;
+    width: 95vw;
+}
+
+    .experiences h1,
+    .experiences p {
+    margin-left: 4.86vw;
+}
+
+    .experiences h2 {
+    margin-left: 0;
+}
+
+    .experiences nav {
+    margin-left: 4.86vw;
+}
+
+    .experiences .title,
+    .experiences .date,
+    .experiences .description {
+    margin-left: 0;
+}
+
+.resume{
+    padding: 5vh 4.86vw;
+  }
+
+  .resume h1{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 4.44vw;
+    margin-bottom: 2.36vh;
+    color: #1C1C1C;
+  }
+
+  .resume p{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-bottom: 2.36vh;
+    color: #1C1C1C;
+  }
+
+  .resume img {
+    width: 27vw;
+    height: 63.68vh;
+    display: block;
+    margin: 4vh auto;
+  }  
+  
+  .pdf-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.47vw; 
+    height: 5.76vh; 
+    font-size: 2.5vw;
+    padding: 1vh 1.5vw;
+    background-color: #1C1C1C;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    gap: 1vw;
+    margin: 0 auto;
+  }
+
+  footer {
+    background-color: #000000;
+    padding: 5vh 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  footer h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 4.44vw; /* 64px */
+    margin: 2vh 0;
+  }
+  
+  footer form {
+    width: 100%;
+    max-width: 71.11vw; /* 1024px / 1440px * 100 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    margin-bottom: 6.94vh; /* 100px / 1440px * 100 */
+  }
+  
+  footer label {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw; /* 36px */
+    align-self: flex-start;
+    color: white;
+  }
+  
+  footer input[type="text"] {
+    width: 71.11vw; /* 1024px */
+    height: 8.17vh; /* 60px */
+    font-size: 1.67vw;
+    padding: 0.5vh 1vw;
+    border: none;
+  }
+  
+  footer input#message {
+    height: 15.97vh; /* 230px */
+  }
+  
+  footer p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: white;
+    align-self: flex-start;
+  }
+  
+  .contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19.38vw; /* 279px */
+    height: 8.76vh; /* 83px */
+    font-size: 2.5vw;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .linkedin-icon {
+    width: 3.13vw; /* 45px */
+    height: 3.13vw;
+    margin: 0 1vw;
+  }
+  
+  .insta-icon {
+    width: 2.92vw; /* 42px */
+    height: 2.92vw;
+    margin: 0 1vw;
+  }
