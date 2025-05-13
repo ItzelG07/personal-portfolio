@@ -23,20 +23,18 @@ html, body {
   }
   
   .logo {
-    width: 15.14vw;
-    height: 12.08vh;
+    width: 8.5vw;
+    height: 11.38vh;
     margin-left: 3.125vw;
     border: transparent;
   }
   
-  nav {
-    margin-left: 39.03vw;
-  }
-  
   .nav__links {
     display: flex;
+    justify-content: flex-end;
     gap: 2vw;
-    width: 60vw;
+    width: 83vw;
+    margin-right: 3.125vw;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -51,7 +49,6 @@ html, body {
   }
   
   .nav__links li a:hover {
-    font-weight: 700;
     color: #C1C1C1;
   }
 
@@ -76,11 +73,9 @@ html, body {
   
   .hero {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 32%;
     width: 100%;
-    height: 20.11vh;
+    height: 25.11vh;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
@@ -98,8 +93,8 @@ html, body {
   
   .discover-anchor {
     position: absolute;
-    top: 80%;
-    left: 12%;
+    top: 75%;
+    left: 50%;
     transform: translate(-50%);
     display: flex;
     flex-direction: column;
@@ -109,16 +104,20 @@ html, body {
     z-index: 2;
     /* width: 100%; */ /* Remove this line */
 }
-  
+
   .discover-anchor p {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
     font-size: 1.67vw;
     color: #ffffff;
   }
-  
+
+  .discover-anchor p:hover{
+    color: #C1C1C1;
+  }
+
   .hero-img2 {
-    width: 7.08vw;
+    width: 6.08vw;
     height: 5.54vh;
   }
 
@@ -139,15 +138,15 @@ html, body {
     font-weight: 400;
     font-size: 2.5vw; 
     color: #1C1C1C;
-    margin-bottom: 4vh;
+    margin-bottom: 8vh;
   }
 
   .learn-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18.47vw; 
-    height: 5.76vh; 
+    width: 19.38vw; /* 279px */
+    height: 8.76vh; /* 83px */
     font-size: 2.5vw;
     padding: 1vh 1.5vw;
     background-color: #1C1C1C;
@@ -158,26 +157,12 @@ html, body {
     border: none;
     cursor: pointer;
     gap: 1vw;
-    margin: 0 auto; /* Centers the anchor horizontally */
+    margin: 0 auto;
   }
-  
-  
-  .learn-btn2 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 18.47vw; 
-    height: 5.76vh; 
-    font-size: 2.5vw;
-    padding: 1vh 1.5vw;
-    background-color: #1C1C1C;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 400;
-    border: none;
-    cursor: pointer;
-    gap: 1vw;
+
+  .learn-btn:hover{
+    background-color: #C1C1C1;
+    color: white;
   }
   
   .btn-img {
@@ -187,7 +172,7 @@ html, body {
   
   .quote {
     width: 95vw;
-    height: 30.25vh;
+    height: 40.25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -196,6 +181,7 @@ html, body {
     padding: 2vh 4vw;
     gap: 2vh;
     background-color: black;
+    margin-top: 4vh;
   }
   
   .quote h1 {
@@ -251,10 +237,9 @@ html, body {
 }
   
   .projects img {
-    width: 27.5vw;
-    margin-right: 2vw;
-    height: auto;
-    object-fit: cover;
+    width: 27.15vw;
+    height: 30.37vh;
+    border: solid black 5px;
   }
 
   .experiences{
@@ -355,7 +340,7 @@ html, body {
   }
 
   .resume img {
-    width: 27vw;
+    width: 24vw;
     height: 63.68vh;
     display: block;
     margin: 4vh auto;
@@ -365,8 +350,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18.47vw; 
-    height: 5.76vh; 
+    width: 19.38vw; /* 279px */
+    height: 8.76vh; /* 83px */
     font-size: 2.5vw;
     padding: 1vh 1.5vw;
     background-color: #1C1C1C;
@@ -378,6 +363,11 @@ html, body {
     cursor: pointer;
     gap: 1vw;
     margin: 0 auto;
+  }
+
+  .pdf-btn:hover{
+    background-color: #C1C1C1;
+    color: white;
   }
 
   footer {
@@ -432,7 +422,7 @@ html, body {
     font-weight: 400;
     font-size: 2.5vw;
     color: white;
-    align-self: flex-start;
+    align-self: flex-end;
   }
   
   .contact-btn {
@@ -451,7 +441,19 @@ html, body {
     cursor: pointer;
     margin-left: auto;
   }
+
+  .contact-btn:hover{
+    background-color: #C1C1C1;
+    color: white;
+  }
   
+.contact-info{
+  height: 8.76vh;
+  width: 73.11vw;
+  display: flex;
+  justify-content: center;
+}
+
   .linkedin-icon {
     width: 3.13vw; /* 45px */
     height: 3.13vw;
@@ -462,4 +464,9 @@ html, body {
     width: 2.92vw; /* 42px */
     height: 2.92vw;
     margin: 0 1vw;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: row;
   }
