@@ -4,34 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Portfolio </title>
-<!--fonts-->
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style-projects.css">
         <link rel="stylesheet" type="text/css" href="nav-bar.css">
         <link rel="stylesheet" type="text/css" href="footer.css">
     </head>
     <body>
         <header>
-            <img class="logo" src="images/" alt="logo">
+            <a href="index.html">
+            <img class="logo" src="images/logo.png" alt="logo">
+            </a>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="xxx.html">HOME</a></li>
-                    <li><a href="xxx.html">ABOUT ME</a></li>
-                    <li><a href="xxx.html">PROJECTS</a></li>
-                    <li><a href="xxx.html">EXPERIENCES</a></li>
-                    <li><a href="xxx.html">RESUME</a></li>
-                    <li><a href="xxx.html">CONTACT</a></li>
+                     <li><a href="index.html#hero">HOME</a></li>
+                    <li><a href="index.html#about">ABOUT ME</a></li>
+                    <li><a href="index.html#projects">PROJECTS</a></li>
+                    <li><a href="index.html#experiences">EXPERIENCES</a></li>
+                    <li><a href="index.html#resume">RESUME</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
         <section class="hero">
             <h1>RAISING CANE’S</h1>
             <p>UX RESEARCH | UX DESIGN | KEY TAKEAWAYS</p>
-            <img class="hero-img">
-                <source src="images/">
-            </img>
+            <img class="hero-img1" src="images/rc.png">
             <p><b>OVERVIEW:</b> Hired to make the Caniac Club Member sign up process more accessible and improve the user flow.</p>
-            <p><b>ROLE:</b>UX Researcher, UX/UI designer </p>
-            <p><b>TOOLKIT:</b>Figma, Pencil and paper</p>
+            <p><b>ROLE:</b> UX Researcher, UX/UI designer </p>
+            <p><b>TOOLKIT:</b> Figma, Pencil and paper</p>
         </section>
         <section class="research">
             <h1>UX RESEARCH</h1>
@@ -49,28 +51,28 @@
                 People wanted to have the sign up process 100% online and users wanted the process to be done in fewer screens.
                 <br>
                 I combined ideas to get more information on a screen to make the user flow less bulky.</p>
-                <img class="example" src="images/">
+                <img class="example" src="images/rc1.png">
 
                 <h2>02 Refining the Design</h2>
                 <p>I stayed true to Branding Guidelines and created a more compact user flow. I wanted to include different payment options to accommodate people in different socio-economic classes. I wanted to make sure the contrast was high enough to support the users who are visually impaired. I wanted to design for those with physical limitations who could not go in person to complete the signup process.</p>
-                <img class="example" src="images/">
+                <img class="example" src="images/rc2.png">
 
                 <h2>03 Responsive Design</h2>
                 <p>My responsive web design includes screens for a laptop, a tablet, and a mobile phone.</p>
-                <img class="example" src="images/">
+                <img class="example" src="images/rc3.png">
 
                 <h2>04 Going Forward</h2>
                 <p>In researching and making changes to the Caniac Club sign up process, I hope to make the user flow more intuitive and consistent for users. I learned how to connect with people through surveys and get helpful user feedback. I want to complete another round of usability testing before handing this off to the engineers. I recommend turning the Caniac Club into a rewards program. I suggest working with the restaurant team on creating a salad to be added onto the menu. </p>
-                <img class="example" src="images/">
+                <img class="example" src="images/rc4.png">
 
                 <h1>VIEW FIGMA PROTOTYPE</h1>
                 <hr>
-                <img class="example" src="images/">
+                <img class="example" src="images/rc5.png">
                 <button class="figma-btn">VIEW PROJECT PROTOTYPE</button>
 
                 <h1>VIEW RAISING CANE’S CASE STUDY</h1>
                 <hr>
-                <img class="example" src="images/">
+                <img class="example" src="images/rc6.png">
                 <button class="casestudy-btn">VIEW CASE STUDY</button>
         </section>
         <footer>
@@ -85,13 +87,17 @@
                 <label for="message">MESSAGE *</label><br>
                 <input type="text" id="message" name="message" value="MESSAGE"><br>
 
-                <p>itzgomez07@gmail.com</p>
-                <button class="contact-btn">SEND</button>
+                <section class="contact-info">
+                    <p>itzgomez07@gmail.com</p>
+                    <button class="contact-btn">SEND</button>
+                </section>
               </form>
 
               <h1>ITZEL GOMEZ</h1>
-              <img class="linkedin-icon" src="images/">
-              <img class="insta-icon" src="images/">
+                <section class="icons">
+                    <img class="linkedin-icon" src="images/linkedin.png">
+                    <img class="insta-icon" src="images/insta.png">
+                </section>
         </footer>
     </body>
     </html>

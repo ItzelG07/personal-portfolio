@@ -1,0 +1,112 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }  
+
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+footer {
+    background-color: #000000;
+    padding: 5vh 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  footer h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 4.44vw; /* 64px */
+    margin: 2vh 0;
+  }
+  
+  footer form {
+    width: 100%;
+    max-width: 71.11vw; /* 1024px / 1440px * 100 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    margin-bottom: 6.94vh; /* 100px / 1440px * 100 */
+  }
+  
+  footer label {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw; /* 36px */
+    align-self: flex-start;
+    color: white;
+  }
+  
+  footer input[type="text"] {
+    width: 71.11vw; /* 1024px */
+    height: 8.17vh; /* 60px */
+    font-size: 1.67vw;
+    padding: 0.5vh 1vw;
+    border: none;
+  }
+  
+  footer input#message {
+    height: 15.97vh; /* 230px */
+  }
+  
+  footer p {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19.38vw; /* 279px */
+    height: 8.76vh; /* 83px */
+    font-size: 2.5vw;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .contact-btn:hover{
+    background-color: #C1C1C1;
+    color: white;
+  }
+  
+.contact-info{
+  height: 8.76vh;
+  width: 73.11vw;
+  display: flex;
+  justify-content: center;
+}
+
+  .linkedin-icon {
+    width: 3.13vw; /* 45px */
+    height: 3.13vw;
+    margin: 0 1vw;
+  }
+  
+  .insta-icon {
+    width: 2.92vw; /* 42px */
+    height: 2.92vw;
+    margin: 0 1vw;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+  }

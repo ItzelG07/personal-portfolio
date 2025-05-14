@@ -4,31 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Portfolio </title>
-<!--fonts-->
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style-projects.css">
         <link rel="stylesheet" type="text/css" href="nav-bar.css">
         <link rel="stylesheet" type="text/css" href="footer.css">
-    </head>
+    </head>    
     <body>
         <header>
-            <img class="logo" src="images/" alt="logo">
+            <a href="index.html">
+            <img class="logo" src="images/logo.png" alt="logo">
+            </a>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="xxx.html">HOME</a></li>
-                    <li><a href="xxx.html">ABOUT ME</a></li>
-                    <li><a href="xxx.html">PROJECTS</a></li>
-                    <li><a href="xxx.html">EXPERIENCES</a></li>
-                    <li><a href="xxx.html">RESUME</a></li>
-                    <li><a href="xxx.html">CONTACT</a></li>
+                     <li><a href="index.html#hero">HOME</a></li>
+                    <li><a href="index.html#about">ABOUT ME</a></li>
+                    <li><a href="index.html#projects">PROJECTS</a></li>
+                    <li><a href="index.html#experiences">EXPERIENCES</a></li>
+                    <li><a href="index.html#resume">RESUME</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
         <section class="hero">
             <h1>LIFESTYLE PHOTOGRAPHY</h1>
             <p>PHOTOGRAPHY | KEY TAKEAWAYS </p>
-            <img class="hero-img">
-                <source src="images/">
-            </img>
+            <img class="hero-img1" src="images/lp.png">
             <p><b>OVERVIEW:</b>The vibrant tapestry of community life unfolds in captivating detail. From streets to serene restaurants, each photograph captures the diverse rhythms and rich textures of everyday existence. With an innate ability to find beauty in the mundane, my work serves as a heartfelt celebration of the shared experiences that bind us together.</p>
             <p><b>ROLE:</b>Photographer</p>
             <p><b>TOOLKIT:</b>Camera, Photoshop</p>
@@ -101,13 +103,17 @@
                 <label for="message">MESSAGE *</label><br>
                 <input type="text" id="message" name="message" value="MESSAGE"><br>
 
-                <p>itzgomez07@gmail.com</p>
-                <button class="contact-btn">SEND</button>
+                <section class="contact-info">
+                    <p>itzgomez07@gmail.com</p>
+                    <button class="contact-btn">SEND</button>
+                </section>
               </form>
 
               <h1>ITZEL GOMEZ</h1>
-              <img class="linkedin-icon" src="images/">
-              <img class="insta-icon" src="images/">
+                <section class="icons">
+                    <img class="linkedin-icon" src="images/linkedin.png">
+                    <img class="insta-icon" src="images/insta.png">
+                </section>
         </footer>
     </body>
     </html>

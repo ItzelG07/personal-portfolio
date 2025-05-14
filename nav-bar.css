@@ -1,0 +1,53 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }  
+
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 15.35vh;
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .logo {
+    width: 8.5vw;
+    height: 11.38vh;
+    margin-left: 3.125vw;
+    border: transparent;
+  }
+  
+  .nav__links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+    width: 83vw;
+    margin-right: 3.125vw;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav__links li a {
+    color: #ffffff;
+    font-size: 1.67vw;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.1s ease-in-out;
+  }
+  
+  .nav__links li a:hover {
+    color: #C1C1C1;
+  }

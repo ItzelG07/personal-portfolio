@@ -1,4 +1,5 @@
 html, body {
+    scroll-behavior: smooth;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -9,6 +10,11 @@ html, body {
     font-weight: 600;
     font-style: normal;
   }
+
+  a {
+  text-decoration: none;
+  color: inherit;
+}
   
   header {
     position: fixed;

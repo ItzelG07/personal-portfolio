@@ -16,17 +16,17 @@
             <img class="logo" src="images/logo.png" alt="logo">
             <nav>
                 <ul class="nav__links">
-                    <li><a href="xxx.html">HOME</a></li>
-                    <li><a href="xxx.html">ABOUT ME</a></li>
-                    <li><a href="xxx.html">PROJECTS</a></li>
-                    <li><a href="xxx.html">EXPERIENCES</a></li>
-                    <li><a href="xxx.html">RESUME</a></li>
-                    <li><a href="xxx.html">CONTACT</a></li>
+                    <li><a href="index.html#hero">HOME</a></li>
+                    <li><a href="index.html#about">ABOUT ME</a></li>
+                    <li><a href="index.html#projects">PROJECTS</a></li>
+                    <li><a href="index.html#experiences">EXPERIENCES</a></li>
+                    <li><a href="index.html#resume">RESUME</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="hero">
+            <section class="hero" id="hero">
                 <h1 class="hero-text">ITZEL GOMEZ</h1>
               </section>
             <nav class="discover-anchor">
@@ -35,17 +35,17 @@
             </nav>
             <img class="hero-img1" src="images/hero-image.png">
         </main>
-        <section class="aboutme">
+        <section class="aboutme" id="about">
             <h1>ABOUT ME</h1>
             <p>I’m an aspiring Project Manager with hands-on experience in team leadership and strategic project planning. I am passionate about fostering collaborative environments, I thrive on turning ideas into better and improved outcomes. My background in UX design and web development, which includes leading app redesigns and managing cross-functional teams, has honed my skills in communication, problem-solving, and adaptive execution. Whether prototyping in Figma or presenting winning pitches, I bring creativity, organization, and a user-focused mindset to every project. Let’s build something great together!</p>
-                <button class="learn-btn" href="xxx.html">LEARN MORE</button>
+                <a href="index.html#contact"><button class="learn-btn">LEARN MORE</button></a>
                 <!--<img class="btn-img" src="images/btn-img.png">-->
         </section>
         <section class="quote">
             <h1>“Experience is the best teacher, and sometimes you have to fail in order to learn.”</h1>
             <p>-LEWIS HAMILTON</p>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <h1>PROJECTS</h1>
             <p>FIND OUT ABOUT MY WORKS: READ THROUGH MY CASE STUDIES, HAVE A LOOK AT FINAL DESIGNS AND TRY OUT PROTOTYPES I’VE BUILT.</p>
             <nav class="web-app">
@@ -56,19 +56,34 @@
             </nav>
             <nav class="uxd">
                 <h2>USER EXPERIENCE DESIGN</h2>
-                <img class="uxd1-img" src="images/rubi.png">
-                <img class="uxd2-img" src="images/jp.png">
-                <img class="uxd3-img" src="images/rc.png">
-            </nav>
+<a href="uxd-rubi.html">
+  <img class="uxd1-img" src="images/rubi.png" alt="UXD Rubi">
+</a>
+
+<a href="uxd-jp.html">
+  <img class="uxd2-img" src="images/jp.png" alt="UXD JP">
+</a>
+
+<a href="uxd-canes.html">
+  <img class="uxd3-img" src="images/rc.png" alt="UXD RC">
+</a>            </nav>
             </nav>
                 <nav class="photo">
                 <h2>PHOTOGRAPHY</h2>
-                <img class="photo1-img" src="images/lp.png">
-                <img class="photo2-img" src="images/np.png">
-                <img class="photo3-img" src="images/csc.png">
+<a href="photo-life.html">
+  <img class="photo1-img" src="images/lp.png" alt="Life Photography">
+</a>
+
+<a href="photo-nature.html">
+  <img class="photo2-img" src="images/np.png" alt="Nature Photography">
+</a>
+
+<a href="photo-csc.html">
+  <img class="photo3-img" src="images/csc.png" alt="CSC Photography">
+</a>
             </nav>
         </section>
-        <section class="experiences">
+        <section class="experiences" id="experiences">
             <h1>EXPERIENCES</h1>
             <p>From UX design certifications to leading cross-functional teams, my experience blends technical skills with strategic leadership to deliver impactful projects.</p>
             <nav class="education">
@@ -114,7 +129,7 @@
                 <p class="description">Qualified for the Clovis West Honor Roll recognizing outstanding academic achievement.</p>
             </nav>
         </section>
-        <section class="resume">
+        <section class="resume" id="resume">
             <h1>RESUME</h1>
             <p>Explore my detailed qualifications—where leadership, technical expertise, and project success come together.</p>
             <img class="resume-img" src="images/resume.png">
@@ -122,7 +137,7 @@
         </section>
 
         <footer>
-            <h1>CONTACT</h1>
+            <h1 id="contact">CONTACT</h1>
             <form>
                 <label for="name">NAME *</label><br>
                 <input type="text" id="name" name="name" value="NAME"><br>
